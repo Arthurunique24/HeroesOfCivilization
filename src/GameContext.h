@@ -2,12 +2,10 @@
 // Created by Falcon on 09.11.17.
 //
 
-#ifndef HEROESOFCIVILIZATION_GAMECONTEXT_H
-#define HEROESOFCIVILIZATION_GAMECONTEXT_H
+#pragma once
 
 #include "ResourceManager/ResourceIdentifier.h"
 #include "ResourceManager/ResourceHolder.h"
-
 
 namespace sf
 {
@@ -33,12 +31,15 @@ namespace States
     struct Context
     {
         explicit Context(sf::RenderWindow &window
-                , TextureHolder &textureHolder) :
+                , sf::Font &font
+                , TextureHolder &textureHolder
+                , FontHolder &fontHolder) :
                 window(&window)
                 ,textureHolder(&textureHolder) {};
         sf::RenderWindow *window;
+        sf::Font *font;
         TextureHolder *textureHolder;
+        FontHolder *fontHolder;
     };
 }
 
-#endif //HEROESOFCIVILIZATION_GAMECONTEXT_H

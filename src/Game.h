@@ -2,14 +2,16 @@
 // Created by Falcon on 09.11.17.
 //
 
-#ifndef HEROESOFCIVILIZATION_GAME_H
-#define HEROESOFCIVILIZATION_GAME_H
-
+#pragma once
 
 #include <SFML/Graphics.hpp>
 #include <SFML/System/Time.hpp>
+#include "StateManager.h"
 #include "GameContext.h"
 #include "Camera.h"
+#include "MenuState.h"
+#include "PauseState.h"
+#include "GameState.h"
 #include "Map.h"
 
 class Game {
@@ -23,12 +25,15 @@ private:
     void update(sf::Time dt);
     void draw();
 
-    sf::RenderWindow window;
+    void registerStates();
+
     TextureHolder textureHolder;
+    FontHolder fontHolder;
+    sf::Font font;
+    sf::RenderWindow window;
     States::Context context;
     Camera camera;
-    Map map;
+    StateManager manager;
 };
 
 
-#endif //HEROESOFCIVILIZATION_GAME_H
