@@ -13,7 +13,7 @@ Game::Game() : window({960, 720}, "Heroes Of Civilization", sf::Style::Titlebar 
                manager(context),
                camera(context)
 {
-    fontHolder.load(Fonts::font1, "/../Resources/sansation.ttf");
+    //fontHolder.load(Fonts::font1, "/Users/user/ClionProjects/HeroesOfCivilization/Resources/sansation.ttf");
 
     registerStates();
     manager.pushState(States::ID::Game);

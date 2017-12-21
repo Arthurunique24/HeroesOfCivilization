@@ -1,6 +1,7 @@
 #pragma once
 
 #include "State.h"
+#include "Camera.h"
 
 class PauseState : public State
 {
@@ -14,4 +15,5 @@ public:
 private:
     sf::Text pausedText, enterText, escText;
     sf::RectangleShape background;
+    Camera camera;
 };

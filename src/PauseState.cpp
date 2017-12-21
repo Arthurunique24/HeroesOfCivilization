@@ -2,6 +2,7 @@
 
 PauseState::PauseState(StateManager &stack, States::Context context)
         : State(stack, context)
+        , camera(context)
 {
     sf::Font &font = *context.font;
     sf::RenderWindow &window = *context.window;
@@ -54,8 +55,9 @@ bool PauseState::update(sf::Time dt)
 void PauseState::draw()
 {
     sf::RenderWindow &window = *getContext().window;
+    window.setView(camera.getView());
     window.draw(background);
-    window.draw(pausedText);
-    window.draw(enterText);
-    window.draw(escText);
+//    window.draw(pausedText);
+//    window.draw(enterText);
+//    window.draw(escText);
 }
