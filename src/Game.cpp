@@ -16,7 +16,7 @@ Game::Game() : window({960, 720}, "Heroes Of Civilization", sf::Style::Titlebar 
     fontHolder.load(Fonts::font1, "/../Resources/sansation.ttf");
 
     registerStates();
-    manager.pushState(States::ID::Menu);
+    manager.pushState(States::ID::Game);
 }
 
 void Game::run()
@@ -72,6 +72,6 @@ void Game::draw()
 void Game::registerStates()
 {
     manager.registerState<GameState>(States::ID::Game);
-    manager.registerState<MenuState>(States::ID::Menu);
+    //manager.registerState<MenuState>(States::ID::Menu);
     manager.registerState<PauseState>(States::ID::Pause);
 }

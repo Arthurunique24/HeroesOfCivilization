@@ -1,52 +1,83 @@
-#pragma once
+#include "StateManager.h"
 
-#include <functional>
-#include "State.h"
+#include <assert.h>
 
-class StateManager : private sf::NonCopyable
+StateManager::StateManager(States::Context context)
+        : context(context)
 {
-public:
-    explicit StateManager(States::Context context);
+}
 
-    template <typename T>
-    void registerState(States::ID stateID);
-
-    void pushState(States::ID state);
-    void popState();
-    void clearStates();
-
-    void processEvents(const sf::Event &event);
-    void update(sf::Time dt);
-    void draw();
-
-    bool isEmpty() const;
-
-private:
-    State::Ptr createState(States::ID state);
-    void       applyChanges();
-
-private:
-    enum class Action
-    {
-        Push,
-        Pop,
-        Clear
-    };
-
-    std::vector<std::pair<Action, States::ID>> actionQueue;
-    std::vector<State::Ptr> stateStack;
-
-    State::Ptr      state;
-    States::Context context;
-
-    std::map<States::ID, std::function<State::Ptr()>> factories;
-};
-
-template <typename T>
-void StateManager::registerState(States::ID stateID)
+void StateManager::pushState(States::ID state)
 {
-    factories[stateID] = [this]()
+    actionQueue.push_back(std::make_pair(Action::Push, state));
+}
+
+void StateManager::popState()
+{
+    actionQueue.push_back(std::make_pair(Action::Pop, States::ID::None));
+}
+
+void StateManager::clearStates()
+{
+    actionQueue.push_back(std::make_pair(Action::Clear, States::ID::None));
+}
+
+void StateManager::processEvents(const sf::Event &event)
+{
+    for (auto it = stateStack.rbegin(); it != stateStack.rend(); ++it)
+        if (!(*it)->handleEvent(event))
+            break;
+
+    applyChanges();
+}
+
+void StateManager::update(sf::Time dt)
+{
+    for (auto it = stateStack.rbegin(); it != stateStack.rend(); ++it)
+        if (!(*it)->update(dt))
+            break;
+
+    applyChanges();
+}
+
+void StateManager::draw()
+{
+    for (State::Ptr &state : stateStack)
+        state->draw();
+}
+
+bool StateManager::isEmpty() const
+{
+    return stateStack.empty();
+}
+
+State::Ptr StateManager::createState(States::ID state)
+{
+    auto found = factories.find(state);
+    assert(found != factories.end());
+
+    return found->second();
+}
+
+void StateManager::applyChanges()
+{
+    for (const auto &change : actionQueue)
     {
-        return State::Ptr(std::make_unique<T>(*this, context));
-    };
+        switch (change.first)
+        {
+            case Action::Push:
+                stateStack.push_back(createState(change.second));
+                break;
+            case Action::Pop:
+                stateStack.pop_back();
+                break;
+            case Action::Clear:
+                stateStack.clear();
+                break;
+            default:
+                break;
+        }
+    }
+
+    actionQueue.clear();
 }

@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 
 #include <memory>
+#include <memory.h>
 
 #include "GameContext.h"
 #include "GameStates.h"
