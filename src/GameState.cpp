@@ -16,8 +16,9 @@ bool GameState::handleEvent(const sf::Event &event)
 {
     camera.handleEvent(event);
 
-    if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Escape)
+    if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Escape) {
         pushState(States::ID::Menu);
+    }
 
 }
 

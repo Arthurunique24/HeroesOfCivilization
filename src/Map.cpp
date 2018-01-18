@@ -12,7 +12,7 @@ Map::Map(sf::RenderWindow &window) : window(window)
     texture.setSmooth(true);
 
     matrixMap.resize(MAP_HEIGHT, std::vector<MapCell>(MAP_WIDTH));
-    loadFromCSV("../Resources/map.csv");
+    loadFromCSV("../HeroesOfCivilization/Resources/map.csv");
 }
 
 void Map::draw()
@@ -36,9 +36,8 @@ void Map::loadFromCSV(const std::string &filename)
         for (int j = 0; j < MAP_WIDTH; j++)
         {
             fin >> tileNumber;
-
             matrixMap[i][j].setTileNumber(tileNumber);
-            sf::IntRect rect{ (TILE_WIDTH + 2) * 5 , (TILE_HEIGHT + 2) * 0, TILE_WIDTH, TILE_HEIGHT };
+            sf::IntRect rect{ (TILE_WIDTH + 2) * (tileNumber % 7) , (TILE_HEIGHT + 2) * (tileNumber / 7), TILE_WIDTH, TILE_HEIGHT };
             matrixMap[i][j].setTexture(texture, rect);
             //matrixMap[i][j].setPosition(static_cast<float>(0), static_cast<float>(0));
             matrixMap[i][j].setCellPosition(j, i);
