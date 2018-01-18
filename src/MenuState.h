@@ -5,13 +5,14 @@
 #pragma once
 
 #include <iostream>
+#include "State.h"
 #include <SFML/Graphics.hpp>
 
 #define MAX_NUMBERS_OF_ITEMS 3
 
-class MenuState {
+class MenuState: public State {
 public:
-    MenuState();
+    MenuState(StateManager &stack, States::Context context);
     ~MenuState();
 
     void StartMenu(sf::RenderWindow &);

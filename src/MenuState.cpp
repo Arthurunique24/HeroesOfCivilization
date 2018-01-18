@@ -27,7 +27,7 @@ MenuState::MenuState() {
 //    menu[2].setPosition(sf::Vector2f(width / 2, height / (MAX_NUMBERS_OF_ITEMS + 3) * 3));
 }
 
-MenuState::~MenuState() {
+MenuState::~MenuState(StateManager &stack, States::Context context)) {
 
 }
 
@@ -60,7 +60,7 @@ int MenuState::GetSelectedItem() {
 void MenuState::StartMenu(sf::RenderWindow &window) {
     float width = window.getSize().x;
     float height = window.getSize().y;
-    if (font.loadFromFile("../Resources/sansation.ttf")) {
+    if (font.loadFromFile("/Resources/sansation.ttf")) {
 
     }
     menu[0].setFont(font);
