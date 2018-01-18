@@ -249,33 +249,9 @@ CMakeFiles/HeroesOfCivilization.dir/src/StateManager.cpp.o.provides: CMakeFiles/
 CMakeFiles/HeroesOfCivilization.dir/src/StateManager.cpp.o.provides.build: CMakeFiles/HeroesOfCivilization.dir/src/StateManager.cpp.o
 
 
-CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o: CMakeFiles/HeroesOfCivilization.dir/flags.make
-CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o: ../../src/MenuState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o -c /Users/user/ClionProjects/Project/HeroesOfCivilization/src/MenuState.cpp
-
-CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/user/ClionProjects/Project/HeroesOfCivilization/src/MenuState.cpp > CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.i
-
-CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/user/ClionProjects/Project/HeroesOfCivilization/src/MenuState.cpp -o CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.s
-
-CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o.requires:
-
-.PHONY : CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o.requires
-
-CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o.provides: CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o.requires
-	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o.provides.build
-.PHONY : CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o.provides
-
-CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o.provides.build: CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o
-
-
 CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o: CMakeFiles/HeroesOfCivilization.dir/flags.make
 CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o: ../../src/State.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o -c /Users/user/ClionProjects/Project/HeroesOfCivilization/src/State.cpp
 
 CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.i: cmake_force
@@ -307,7 +283,6 @@ HeroesOfCivilization_OBJECTS = \
 "CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o" \
 "CMakeFiles/HeroesOfCivilization.dir/src/PauseState.cpp.o" \
 "CMakeFiles/HeroesOfCivilization.dir/src/StateManager.cpp.o" \
-"CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o" \
 "CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o"
 
 # External object files for target HeroesOfCivilization
@@ -321,11 +296,10 @@ HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/src/Camera.cpp.o
 HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o
 HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/src/PauseState.cpp.o
 HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/src/StateManager.cpp.o
-HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o
 HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o
 HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/build.make
 HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable HeroesOfCivilization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable HeroesOfCivilization"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HeroesOfCivilization.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -341,7 +315,6 @@ CMakeFiles/HeroesOfCivilization.dir/requires: CMakeFiles/HeroesOfCivilization.di
 CMakeFiles/HeroesOfCivilization.dir/requires: CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o.requires
 CMakeFiles/HeroesOfCivilization.dir/requires: CMakeFiles/HeroesOfCivilization.dir/src/PauseState.cpp.o.requires
 CMakeFiles/HeroesOfCivilization.dir/requires: CMakeFiles/HeroesOfCivilization.dir/src/StateManager.cpp.o.requires
-CMakeFiles/HeroesOfCivilization.dir/requires: CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o.requires
 CMakeFiles/HeroesOfCivilization.dir/requires: CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o.requires
 
 .PHONY : CMakeFiles/HeroesOfCivilization.dir/requires

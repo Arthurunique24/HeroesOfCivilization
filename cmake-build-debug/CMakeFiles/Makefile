@@ -258,33 +258,6 @@ src/MapCell.cpp.s:
 	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/MapCell.cpp.s
 .PHONY : src/MapCell.cpp.s
 
-src/MenuState.o: src/MenuState.cpp.o
-
-.PHONY : src/MenuState.o
-
-# target to build an object file
-src/MenuState.cpp.o:
-	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o
-.PHONY : src/MenuState.cpp.o
-
-src/MenuState.i: src/MenuState.cpp.i
-
-.PHONY : src/MenuState.i
-
-# target to preprocess a source file
-src/MenuState.cpp.i:
-	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.i
-.PHONY : src/MenuState.cpp.i
-
-src/MenuState.s: src/MenuState.cpp.s
-
-.PHONY : src/MenuState.s
-
-# target to generate assembly for a file
-src/MenuState.cpp.s:
-	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.s
-.PHONY : src/MenuState.cpp.s
-
 src/PauseState.o: src/PauseState.cpp.o
 
 .PHONY : src/PauseState.o
@@ -417,9 +390,6 @@ help:
 	@echo "... src/MapCell.o"
 	@echo "... src/MapCell.i"
 	@echo "... src/MapCell.s"
-	@echo "... src/MenuState.o"
-	@echo "... src/MenuState.i"
-	@echo "... src/MenuState.s"
 	@echo "... src/PauseState.o"
 	@echo "... src/PauseState.i"
 	@echo "... src/PauseState.s"

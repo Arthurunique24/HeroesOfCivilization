@@ -123,12 +123,6 @@
 		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/MapCell.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/MenuState.cpp">
-			<Option target="HeroesOfCivilization"/>
-		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/MenuState.h">
-			<Option target="HeroesOfCivilization"/>
-		</Unit>
 		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/PauseState.cpp">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>

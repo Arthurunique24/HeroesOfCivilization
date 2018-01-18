@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-
 CMakeFiles/HeroesOfCivilization.dir/all:
 	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/depend
 	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target HeroesOfCivilization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target HeroesOfCivilization"
 .PHONY : CMakeFiles/HeroesOfCivilization.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/HeroesOfCivilization.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HeroesOfCivilization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HeroesOfCivilization.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles 0
 .PHONY : CMakeFiles/HeroesOfCivilization.dir/rule
