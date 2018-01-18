@@ -15,10 +15,11 @@ MenuState::MenuState(StateManager &stack, States::Context context): State(stack,
 
     }
 
-//    sf::View view;
-////    view.setSize((width / 2), height / (MAX_NUMBERS_OF_ITEMS + 1) * 1); //480
-//    view.setCenter(view.getSize().x / 2, view.getSize().y / 2);
-//    view.setViewport({ 0.f, 0.f, 1.f, 1.f });
+    sf::View view;
+    view.setSize(static_cast<float>(960), static_cast<float>(720)); //480
+    view.setCenter(view.getSize().x / 2, view.getSize().y / 2);
+    view.setViewport({ 0.f, 0.f, 1.f, 1.f });
+    window.setView(view);
 
     menu[0].setFont(font);
     menu[0].setString("Back to Game");
