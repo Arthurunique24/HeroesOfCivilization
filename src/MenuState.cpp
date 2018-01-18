@@ -4,6 +4,7 @@
 
 #include "MenuState.h"
 
+<<<<<<< HEAD
 MenuState::MenuState() {
 //    float width, float height
 //
@@ -61,6 +62,13 @@ void MenuState::StartMenu(sf::RenderWindow &window) {
     float width = window.getSize().x;
     float height = window.getSize().y;
     if (font.loadFromFile("/Resources/sansation.ttf")) {
+=======
+MenuState::MenuState(StateManager &stack, States::Context context): State(stack, context) {
+    sf::RenderWindow &window = *getContext().window;
+    float width = window.getSize().x;
+    float height = window.getSize().y;
+    if (font.loadFromFile("../arial.ttf")) {
+>>>>>>> master
 
     }
     menu[0].setFont(font);
@@ -104,4 +112,34 @@ void MenuState::StartMenu(sf::RenderWindow &window) {
         Draw(window);
         window.display();
     }
+}
+
+MenuState::~MenuState() {
+
+}
+
+void MenuState::Draw(sf::RenderWindow &window) {
+    for (int i = 0; i < MAX_NUMBERS_OF_ITEMS; i++) {
+        window.draw(menu[i]);
+    }
+}
+
+void MenuState::MoveUp() {
+    if (selectedItemIndex - 1 >= 0) {
+        menu[selectedItemIndex].setFillColor(sf::Color::White);
+        selectedItemIndex--;
+        menu[selectedItemIndex].setFillColor(sf::Color::Red);
+    }
+}
+
+void MenuState::MoveDown() {
+    if (selectedItemIndex + 1 < MAX_NUMBERS_OF_ITEMS) {
+        menu[selectedItemIndex].setFillColor(sf::Color::White);
+        selectedItemIndex++;
+        menu[selectedItemIndex].setFillColor(sf::Color::Red);
+    }
+}
+
+int MenuState::GetSelectedItem() {
+    return selectedItemIndex;
 }
