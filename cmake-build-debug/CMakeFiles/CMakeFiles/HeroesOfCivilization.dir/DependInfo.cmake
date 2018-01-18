@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/user/ClionProjects/Project/HeroesOfCivilization/src/GameState.cpp" "/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o"
   "/Users/user/ClionProjects/Project/HeroesOfCivilization/src/Map.cpp" "/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles/HeroesOfCivilization.dir/src/Map.cpp.o"
   "/Users/user/ClionProjects/Project/HeroesOfCivilization/src/MapCell.cpp" "/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles/HeroesOfCivilization.dir/src/MapCell.cpp.o"
-  "/Users/user/ClionProjects/Project/HeroesOfCivilization/src/MenuState.cpp" "/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o"
   "/Users/user/ClionProjects/Project/HeroesOfCivilization/src/PauseState.cpp" "/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles/HeroesOfCivilization.dir/src/PauseState.cpp.o"
   "/Users/user/ClionProjects/Project/HeroesOfCivilization/src/State.cpp" "/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o"
   "/Users/user/ClionProjects/Project/HeroesOfCivilization/src/StateManager.cpp" "/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles/HeroesOfCivilization.dir/src/StateManager.cpp.o"

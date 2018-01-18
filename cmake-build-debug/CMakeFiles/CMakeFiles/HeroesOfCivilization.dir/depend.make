@@ -47,9 +47,6 @@ CMakeFiles/HeroesOfCivilization.dir/src/MapCell.cpp.o: ../../src/Constants.h
 CMakeFiles/HeroesOfCivilization.dir/src/MapCell.cpp.o: ../../src/MapCell.cpp
 CMakeFiles/HeroesOfCivilization.dir/src/MapCell.cpp.o: ../../src/MapCell.h
 
-CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o: ../../src/MenuState.cpp
-CMakeFiles/HeroesOfCivilization.dir/src/MenuState.cpp.o: ../../src/MenuState.h
-
 CMakeFiles/HeroesOfCivilization.dir/src/PauseState.cpp.o: ../../src/Camera.h
 CMakeFiles/HeroesOfCivilization.dir/src/PauseState.cpp.o: ../../src/GameContext.h
 CMakeFiles/HeroesOfCivilization.dir/src/PauseState.cpp.o: ../../src/GameStates.h
