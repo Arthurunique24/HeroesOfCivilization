@@ -89,6 +89,8 @@ CMakeFiles/HeroesOfCivilization.dir/src/Game.cpp.o
  /Users/Arthur/GitHub/HeroesOfCivilization/src/GameStates.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/Map.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/MapCell.h
+ /Users/Arthur/GitHub/HeroesOfCivilization/src/MenuState.cpp
+ /Users/Arthur/GitHub/HeroesOfCivilization/src/MenuState.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/PauseState.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/ResourceManager/ResourceHolder.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/ResourceManager/ResourceIdentifier.h
@@ -175,6 +177,7 @@ CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o
  /Users/Arthur/GitHub/HeroesOfCivilization/src/GameStates.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/Map.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/MapCell.h
+ /Users/Arthur/GitHub/HeroesOfCivilization/src/MenuState.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/PauseState.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/ResourceManager/ResourceHolder.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/ResourceManager/ResourceIdentifier.h
@@ -649,6 +652,7 @@ CMakeFiles/HeroesOfCivilization.dir/src/main.cpp.o
  /Users/Arthur/GitHub/HeroesOfCivilization/src/GameStates.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/Map.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/MapCell.h
+ /Users/Arthur/GitHub/HeroesOfCivilization/src/MenuState.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/PauseState.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/ResourceManager/ResourceHolder.h
  /Users/Arthur/GitHub/HeroesOfCivilization/src/ResourceManager/ResourceIdentifier.h

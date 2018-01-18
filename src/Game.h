@@ -13,6 +13,7 @@
 #include "PauseState.h"
 #include "GameState.h"
 #include "Map.h"
+#include "MenuState.h"
 
 class Game {
 public:

@@ -2,24 +2,24 @@
 // Created by Arthur  on 12/14/17.
 //
 
-#ifndef HEROESOFCIVILIZATION_MENU_H
-#define HEROESOFCIVILIZATION_MENU_H
+#pragma once
 
-#include <iostream>
 #include <SFML/Graphics.hpp>
 #include "MenuState.h"
 #include "GameContext.h"
-#include "StateManager.h"
 #include "State.h"
+#include "Camera.h"
 
 #define MAX_NUMBERS_OF_ITEMS 3
 
-class MenuState: public State {
+class MenuState: public State
+{
 public:
     explicit MenuState(StateManager &stack, States::Context context);
-    ~MenuState();
 
-    void Draw(sf::RenderWindow &window);
+    void draw() override;
+    bool update(sf::Time dt) override;
+    bool handleEvent(const sf::Event &event) override;
     void MoveUp();
     void MoveDown();
     int GetSelectedItem();
@@ -30,5 +30,3 @@ private:
     sf::Text menu[MAX_NUMBERS_OF_ITEMS];
 };
 
-
-#endif //HEROESOFCIVILIZATION_MENU_H

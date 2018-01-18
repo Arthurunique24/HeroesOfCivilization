@@ -3,6 +3,7 @@
 //
 
 #include "Game.h"
+#include "MenuState.cpp"
 #include "Map.h"
 #include <SFML/System/Time.hpp>
 #include "ResourceManager/ResourceIdentifier.h"
@@ -16,7 +17,7 @@ Game::Game() : window({960, 720}, "Heroes Of Civilization", sf::Style::Titlebar 
     //fontHolder.load(Fonts::font1, "../Resources/sansation.ttf");
 
     registerStates();
-    manager.pushState(States::ID::Game);
+    manager.pushState(States::ID::Menu);
 }
 
 void Game::run()
@@ -73,5 +74,5 @@ void Game::registerStates()
 {
     manager.registerState<GameState>(States::ID::Game);
     manager.registerState<MenuState>(States::ID::Menu);
-    manager.registerState<PauseState>(States::ID::Pause);
+//    manager.registerState<PauseState>(States::ID::Pause);
 }

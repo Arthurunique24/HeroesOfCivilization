@@ -88,6 +88,8 @@ CMakeFiles/HeroesOfCivilization.dir/src/Game.cpp.o: ../../src/GameState.h
 CMakeFiles/HeroesOfCivilization.dir/src/Game.cpp.o: ../../src/GameStates.h
 CMakeFiles/HeroesOfCivilization.dir/src/Game.cpp.o: ../../src/Map.h
 CMakeFiles/HeroesOfCivilization.dir/src/Game.cpp.o: ../../src/MapCell.h
+CMakeFiles/HeroesOfCivilization.dir/src/Game.cpp.o: ../../src/MenuState.cpp
+CMakeFiles/HeroesOfCivilization.dir/src/Game.cpp.o: ../../src/MenuState.h
 CMakeFiles/HeroesOfCivilization.dir/src/Game.cpp.o: ../../src/PauseState.h
 CMakeFiles/HeroesOfCivilization.dir/src/Game.cpp.o: ../../src/ResourceManager/ResourceHolder.h
 CMakeFiles/HeroesOfCivilization.dir/src/Game.cpp.o: ../../src/ResourceManager/ResourceIdentifier.h
@@ -174,6 +176,7 @@ CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o: ../../src/GameState.h
 CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o: ../../src/GameStates.h
 CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o: ../../src/Map.h
 CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o: ../../src/MapCell.h
+CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o: ../../src/MenuState.h
 CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o: ../../src/PauseState.h
 CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o: ../../src/ResourceManager/ResourceHolder.h
 CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o: ../../src/ResourceManager/ResourceIdentifier.h
@@ -648,6 +651,7 @@ CMakeFiles/HeroesOfCivilization.dir/src/main.cpp.o: ../../src/GameState.h
 CMakeFiles/HeroesOfCivilization.dir/src/main.cpp.o: ../../src/GameStates.h
 CMakeFiles/HeroesOfCivilization.dir/src/main.cpp.o: ../../src/Map.h
 CMakeFiles/HeroesOfCivilization.dir/src/main.cpp.o: ../../src/MapCell.h
+CMakeFiles/HeroesOfCivilization.dir/src/main.cpp.o: ../../src/MenuState.h
 CMakeFiles/HeroesOfCivilization.dir/src/main.cpp.o: ../../src/PauseState.h
 CMakeFiles/HeroesOfCivilization.dir/src/main.cpp.o: ../../src/ResourceManager/ResourceHolder.h
 CMakeFiles/HeroesOfCivilization.dir/src/main.cpp.o: ../../src/ResourceManager/ResourceIdentifier.h
