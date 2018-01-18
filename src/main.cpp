@@ -1,6 +1,12 @@
 #include <iostream>
+#include <functional>
+#include <SFML/Graphics.hpp>
+#include "Game.h"
+//#include "GameContext.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Game game;
+    game.run();
+    std::cout << "Hello, world!";
     return 0;
 }
