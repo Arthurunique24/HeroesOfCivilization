@@ -8,152 +8,150 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Modules\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles"/>
+				<Option working_dir="/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles"/>
+				<Option working_dir="/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles"/>
+				<Option working_dir="/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HeroesOfCivilization">
-				<Option output="/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/HeroesOfCivilization" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles"/>
+				<Option output="/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/HeroesOfCivilization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Frameworks/SFML.framework"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 HeroesOfCivilization"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 HeroesOfCivilization"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HeroesOfCivilization/fast">
-				<Option output="/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/HeroesOfCivilization" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles"/>
+				<Option output="/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/HeroesOfCivilization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Frameworks/SFML.framework"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 HeroesOfCivilization/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 HeroesOfCivilization/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/Camera.cpp">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Camera.cpp">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/Camera.h">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Camera.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/Constants.h">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Constants.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/Game.cpp">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Game.cpp">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/Game.h">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Game.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/GameContext.h">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/GameContext.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/GameState.cpp">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/GameState.cpp">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/GameState.h">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/GameState.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/GameStates.h">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/GameStates.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/Map.cpp">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Map.cpp">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/Map.h">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Map.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/MapCell.cpp">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/MapCell.cpp">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/MapCell.h">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/MapCell.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/PauseState.cpp">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/PauseState.cpp">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/PauseState.h">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/PauseState.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/ResourceManager/ResourceHolder.h">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/ResourceManager/ResourceHolder.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/ResourceManager/ResourceIdentifier.h">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/ResourceManager/ResourceIdentifier.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/State.cpp">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/State.cpp">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/State.h">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/State.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/StateManager.cpp">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/StateManager.cpp">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/StateManager.h">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/StateManager.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/src/main.cpp">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/main.cpp">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/CMakeLists.txt">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/user/ClionProjects/Project/HeroesOfCivilization/cmake/Modules/FindSFML.cmake">
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/cmake/Modules/FindSFML.cmake">
 			<Option virtualFolder="CMake Files\cmake\Modules\"/>
 		</Unit>
 	</Project>
