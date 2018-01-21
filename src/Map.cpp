@@ -3,6 +3,7 @@
 //
 #include <fstream>
 #include <iostream>
+#include <cassert>
 #include "Map.h"
 #include "Constants.h"
 
@@ -34,12 +35,25 @@ void Map::draw()
         }
 }
 
+
 void Map::highlightCell(const sf::Event &event, Camera camera)
 {
     int y = int(static_cast<float>(event.mouseButton.y) + camera.getView().getCenter().y - 360) / 107;
     int x = (static_cast<float>(event.mouseButton.x) + camera.getView().getCenter().x - 480 - 60 * (y % 2)) / 120;
+    std::cout << "X: " << x << " Y: " << y << std::endl;
+
+    std::ofstream coord("../Resources/coordinates");
+    assert(coord);
+
+    coord << y << " " << x;
+
+    coord.clear();
+    coord.close();
+
     matrixMap[y][x].select();
 }
+
+
 
 void Map::loadFromCSV(const std::string &filename)
 {

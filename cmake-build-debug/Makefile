@@ -231,6 +231,33 @@ src/GameState.cpp.s:
 	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.s
 .PHONY : src/GameState.cpp.s
 
+src/GetName.o: src/GetName.cpp.o
+
+.PHONY : src/GetName.o
+
+# target to build an object file
+src/GetName.cpp.o:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/GetName.cpp.o
+.PHONY : src/GetName.cpp.o
+
+src/GetName.i: src/GetName.cpp.i
+
+.PHONY : src/GetName.i
+
+# target to preprocess a source file
+src/GetName.cpp.i:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/GetName.cpp.i
+.PHONY : src/GetName.cpp.i
+
+src/GetName.s: src/GetName.cpp.s
+
+.PHONY : src/GetName.s
+
+# target to generate assembly for a file
+src/GetName.cpp.s:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/GetName.cpp.s
+.PHONY : src/GetName.cpp.s
+
 src/Interface/Buildings.o: src/Interface/Buildings.cpp.o
 
 .PHONY : src/Interface/Buildings.o
@@ -257,33 +284,6 @@ src/Interface/Buildings.s: src/Interface/Buildings.cpp.s
 src/Interface/Buildings.cpp.s:
 	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.s
 .PHONY : src/Interface/Buildings.cpp.s
-
-src/Interface/GetText.o: src/Interface/GetText.cpp.o
-
-.PHONY : src/Interface/GetText.o
-
-# target to build an object file
-src/Interface/GetText.cpp.o:
-	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/GetText.cpp.o
-.PHONY : src/Interface/GetText.cpp.o
-
-src/Interface/GetText.i: src/Interface/GetText.cpp.i
-
-.PHONY : src/Interface/GetText.i
-
-# target to preprocess a source file
-src/Interface/GetText.cpp.i:
-	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/GetText.cpp.i
-.PHONY : src/Interface/GetText.cpp.i
-
-src/Interface/GetText.s: src/Interface/GetText.cpp.s
-
-.PHONY : src/Interface/GetText.s
-
-# target to generate assembly for a file
-src/Interface/GetText.cpp.s:
-	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/GetText.cpp.s
-.PHONY : src/Interface/GetText.cpp.s
 
 src/Interface/User.o: src/Interface/User.cpp.o
 
@@ -495,12 +495,12 @@ help:
 	@echo "... src/GameState.o"
 	@echo "... src/GameState.i"
 	@echo "... src/GameState.s"
+	@echo "... src/GetName.o"
+	@echo "... src/GetName.i"
+	@echo "... src/GetName.s"
 	@echo "... src/Interface/Buildings.o"
 	@echo "... src/Interface/Buildings.i"
 	@echo "... src/Interface/Buildings.s"
-	@echo "... src/Interface/GetText.o"
-	@echo "... src/Interface/GetText.i"
-	@echo "... src/Interface/GetText.s"
 	@echo "... src/Interface/User.o"
 	@echo "... src/Interface/User.i"
 	@echo "... src/Interface/User.s"

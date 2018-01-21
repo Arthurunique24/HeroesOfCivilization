@@ -11,6 +11,14 @@ ActionMenuState.h
 /Users/Arthur/GitHub/HeroesOfCivilization/src/ActionMenuState.h
 Game.h
 /Users/Arthur/GitHub/HeroesOfCivilization/src/Game.h
+iostream
+-
+fstream
+-
+cassert
+-
+Camera.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/Camera.h
 
 /Users/Arthur/GitHub/HeroesOfCivilization/src/ActionMenuState.h
 SFML/Graphics.hpp
@@ -47,6 +55,8 @@ MenuState.cpp
 /Users/Arthur/GitHub/HeroesOfCivilization/src/MenuState.cpp
 Map.h
 /Users/Arthur/GitHub/HeroesOfCivilization/src/Map.h
+GetName.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/GetName.h
 SFML/System/Time.hpp
 -
 ResourceManager/ResourceIdentifier.h
@@ -106,17 +116,27 @@ SFML/System/Time.hpp
 
 /Users/Arthur/GitHub/HeroesOfCivilization/src/GameStates.h
 
+/Users/Arthur/GitHub/HeroesOfCivilization/src/GetName.cpp
+GetName.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/GetName.h
+
+/Users/Arthur/GitHub/HeroesOfCivilization/src/GetName.h
+SFML/Graphics.hpp
+-
+iostream
+-
+GameContext.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/GameContext.h
+State.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/State.h
+Camera.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/Camera.h
+
 /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.cpp
 Buildings.h
 /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.h
 
 /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.h
-
-/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/GetText.cpp
-GetText.h
-/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/GetText.h
-
-/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/GetText.h
 
 /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/User.cpp
 User.h
@@ -136,6 +156,8 @@ sstream
 fstream
 -
 iostream
+-
+cassert
 -
 Map.h
 /Users/Arthur/GitHub/HeroesOfCivilization/src/Map.h

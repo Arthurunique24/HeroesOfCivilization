@@ -11,7 +11,7 @@ MenuState::MenuState(StateManager &stack, States::Context context): State(stack,
     sf::RenderWindow &window = *getContext().window;
     float width = window.getSize().x;
     float height = window.getSize().y;
-    font.loadFromFile("..//Resources/sansation.ttf");
+    font.loadFromFile("../Resources/sansation.ttf");
 
     sf::View view;
     view.setSize(static_cast<float>(960), static_cast<float>(720)); //480
@@ -70,6 +70,7 @@ bool MenuState::handleEvent(const sf::Event &event) {
         if (event.key.code == sf::Keyboard::Return) {
             if (GetSelectedItem() == 0) {
                 pushState(States::ID::Game);
+//                pushState(States::ID::GetName);
             }
             if (GetSelectedItem() == 2) {
                 exit(0);
