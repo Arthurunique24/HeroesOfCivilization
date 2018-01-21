@@ -9,6 +9,7 @@ namespace States
         Menu,
         Pause,
         ActionMenu,
+        GetName,
         GameOver,
         WinFirstUser,
         WinSecondUser

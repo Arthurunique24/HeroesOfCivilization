@@ -5,6 +5,7 @@
 #include "Game.h"
 #include "MenuState.cpp"
 #include "Map.h"
+#include "GetName.h"
 #include <SFML/System/Time.hpp>
 #include "ResourceManager/ResourceIdentifier.h"
 #include "ResourceManager/ResourceHolder.h"
@@ -75,4 +76,5 @@ void Game::registerStates()
     manager.registerState<GameState>(States::ID::Game);
     manager.registerState<MenuState>(States::ID::Menu);
     manager.registerState<ActionMenuState>(States::ID::ActionMenu);
+    manager.registerState<GetName>(States::ID::GetName);
 }

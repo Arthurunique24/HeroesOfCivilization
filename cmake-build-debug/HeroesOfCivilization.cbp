@@ -115,16 +115,16 @@
 		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/GameStates.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/GetName.cpp">
+			<Option target="HeroesOfCivilization"/>
+		</Unit>
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/GetName.h">
+			<Option target="HeroesOfCivilization"/>
+		</Unit>
 		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.cpp">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
 		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.h">
-			<Option target="HeroesOfCivilization"/>
-		</Unit>
-		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/GetText.cpp">
-			<Option target="HeroesOfCivilization"/>
-		</Unit>
-		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/GetText.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
 		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/User.cpp">

@@ -4,6 +4,11 @@
 
 #include "ActionMenuState.h"
 #include "Game.h"
+#include <iostream>
+#include <fstream>
+#include <cassert>
+#include "Camera.h"
+
 
 ActionMenuState::ActionMenuState(StateManager &stack, States::Context context): State(stack, context) {
     selectedItemIndex = 0;
@@ -53,6 +58,15 @@ bool ActionMenuState::update(sf::Time dt) {
 }
 
 bool ActionMenuState::handleEvent(const sf::Event &event) {
+    std::ifstream coords("../Resources/coordinates");
+    assert(coords);
+    int X;
+    int Y;
+
+    coords >> X >> Y;
+
+    coords.close();
+
     if (event.type == sf::Event::KeyReleased) {
         if (event.key.code == sf::Keyboard::Up) {
             MoveUp();
@@ -66,19 +80,23 @@ bool ActionMenuState::handleEvent(const sf::Event &event) {
         if (event.key.code == sf::Keyboard::Return) {
             //Farm
             if (GetSelectedItem() == 0) {
-                //do somth
+                Remap(X, Y, 5);
+                pushState(States::ID::Game);
             }
             //Sawmill
             if (GetSelectedItem() == 1) {
-                //do somth
+                Remap(X, Y, 11);
+                pushState(States::ID::Game);
             }
             //Mine
             if (GetSelectedItem() == 2) {
-                //do somth
+                Remap(X, Y, 0);
+                pushState(States::ID::Game);
             }
             //Barracks
             if (GetSelectedItem() == 3) {
-                //do somth
+                Remap(X, Y, 8);
+                pushState(States::ID::Game);
             }
         }
     }
@@ -108,4 +126,38 @@ void ActionMenuState::MoveDown() {
 
 int ActionMenuState::GetSelectedItem() {
     return selectedItemIndex;
+}
+
+void ActionMenuState::Remap(int x, int y, int type) {
+    std::string fileName;
+    fileName = "../Resources/map.csv";
+    std::ifstream fin(fileName);
+
+    int map[12][15];
+    int tileNumber;
+    char coma;
+
+    for (int i = 0; i < 12; i++) {
+        for (int j = 0; j < 15; j++) {
+            fin >> tileNumber;
+            map[i][j] = tileNumber;
+            fin >> coma;
+        }
+    }
+    map[x][y] = type;
+
+    fin.clear();
+    fin.seekg(0);
+    fin.close();
+
+    std::ofstream fin1(fileName);
+
+    for (int i = 0; i < 12; i++) {
+        for (int j = 0; j < 15; j++) {
+            fin1 << map[i][j] << ",";
+        }
+        fin1 << std::endl;
+    }
+
+    fin1.close();
 }

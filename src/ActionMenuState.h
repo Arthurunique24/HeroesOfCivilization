@@ -23,6 +23,7 @@ public:
     void MoveDown();
     int GetSelectedItem();
 
+    void Remap(int, int, int);
 private:
     int selectedItemIndex;
     sf::Font font;

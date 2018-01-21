@@ -88,8 +88,10 @@ void Camera::update(sf::Time dt)
     sf::Vector2i mousePos = sf::Mouse::getPosition(*context.window);
     //std::cout << mousePos.x << ' ' << mousePos.y << std::endl;
 
-    std::cout << "view size : " << view.getSize().y << " X " << view.getSize().x << " " << std::endl;
-    std::cout << "center y: " << view.getCenter().y << "  center x: " << view.getCenter().x << std::endl;
+
+
+//    std::cout << "view size : " << view.getSize().y << " X " << view.getSize().x << " " << std::endl;
+//    std::cout << "center y: " << view.getCenter().y << "  center x: " << view.getCenter().x << std::endl;
     if (mousePos.x < 0) mousePos.x = 0;
     else if (mousePos.x > windowSize.x) mousePos.x = windowSize.x;
 

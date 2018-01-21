@@ -12,8 +12,7 @@
 
 #define MAX_NUMBERS_OF_ITEMS 3
 
-class MenuState: public State
-{
+class MenuState: public State {
 public:
     explicit MenuState(StateManager &stack, States::Context context);
 
