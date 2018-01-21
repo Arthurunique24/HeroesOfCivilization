@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o"
   "CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o"
   "CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o"
+  "CMakeFiles/HeroesOfCivilization.dir/src/Interface/GetText.cpp.o"
   "HeroesOfCivilization.pdb"
   "HeroesOfCivilization"
 )

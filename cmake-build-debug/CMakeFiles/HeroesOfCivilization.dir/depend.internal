@@ -347,6 +347,9 @@ CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o
 CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o
  /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.cpp
  /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.h
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/GetText.cpp.o
+ /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/GetText.cpp
+ /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/GetText.h
 CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o
  /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/User.cpp
  /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/User.h
