@@ -5,6 +5,7 @@
 #pragma once
 
 #include "MapCell.h"
+#include <SFML/Graphics.hpp>
 #include <vector>
 
 
@@ -15,6 +16,7 @@ public:
     ~Map() = default;
 
     void draw();
+    void highlightCell(const sf::Event &event);
 
 private:
     void loadFromCSV(const std::string &filename);

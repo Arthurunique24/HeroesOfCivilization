@@ -18,10 +18,13 @@ public:
     void setTileNumber(int number);
     void setCellPosition(int x, int y);
     const int getTileNumber() const;
+    void select();
+    bool isSelect();
 
 private:
     void draw(sf::RenderTarget &target, sf::RenderStates states) const override;
 
+    bool selected;
     int tileNumber;
     sf::Vector2i position;
     sf::Sprite sprite;
