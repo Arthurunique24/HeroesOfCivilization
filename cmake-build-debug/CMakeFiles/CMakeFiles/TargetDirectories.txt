@@ -1,3 +1,0 @@
-/Users/user/Github/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles/rebuild_cache.dir
-/Users/user/Github/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles/edit_cache.dir
-/Users/user/Github/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles/HeroesOfCivilization.dir

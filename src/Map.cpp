@@ -8,11 +8,11 @@
 
 Map::Map(sf::RenderWindow &window) : window(window)
 {
-    texture.loadFromFile("../HeroesOfCivilization/Resources/mapTexture.png"); //если текущая директория папка src. Если не работает, то можно указать полный путь
+    texture.loadFromFile("../Resources/mapTexture.png"); //если текущая директория папка src. Если не работает, то можно указать полный путь
     texture.setSmooth(true);
 
     matrixMap.resize(MAP_HEIGHT, std::vector<MapCell>(MAP_WIDTH));
-    loadFromCSV("../HeroesOfCivilization/Resources/map.csv");
+    loadFromCSV("../Resources/map.csv");
 }
 
 void Map::draw()
