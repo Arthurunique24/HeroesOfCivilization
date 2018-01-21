@@ -5,7 +5,9 @@
 #include "MapCell.h"
 
 MapCell::MapCell()
-{}
+{
+    selected = false;
+}
 
 MapCell::~MapCell()
 {}
@@ -33,8 +35,19 @@ const int MapCell::getTileNumber() const
     return tileNumber;
 }
 
+void MapCell::select()
+{
+    selected = !selected;
+}
+
+const bool MapCell::isSelect()
+{
+    return selected;
+}
+
 void MapCell::draw(sf::RenderTarget &target, sf::RenderStates states) const
 {
     states.transform *= getTransform();
     target.draw(sprite, states);
+
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Arthur/GitHub/HeroesOfCivilization
+# Install script for directory: /Users/user/Github/HeroesOfCivilization
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/user/Github/HeroesOfCivilization/cmake-build-debug/CMakeFiles/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
