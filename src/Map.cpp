@@ -17,6 +17,7 @@ Map::Map(sf::RenderWindow &window) : window(window)
 
 void Map::draw()
 {
+    window.clear();
     for (int i = 0; i < MAP_HEIGHT; i++)
         for (int j = 0; j < MAP_WIDTH; j++)
         {
@@ -37,7 +38,7 @@ void Map::loadFromCSV(const std::string &filename)
         {
             fin >> tileNumber;
             matrixMap[i][j].setTileNumber(tileNumber);
-            sf::IntRect rect{ (TILE_WIDTH + 2) * (tileNumber % 7) , (TILE_HEIGHT + 2) * (tileNumber / 7), TILE_WIDTH, TILE_HEIGHT };
+            sf::IntRect rect{ (TILE_WIDTH + 2) * (tileNumber % 7) + 1 , (TILE_HEIGHT + 2) * (tileNumber / 7), TILE_WIDTH, TILE_HEIGHT };
             matrixMap[i][j].setTexture(texture, rect);
             //matrixMap[i][j].setPosition(static_cast<float>(0), static_cast<float>(0));
             matrixMap[i][j].setCellPosition(j, i);

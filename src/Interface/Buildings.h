@@ -1,0 +1,14 @@
+//
+// Created by Arthur  on 1/20/18.
+//
+
+#ifndef HEROESOFCIVILIZATION_BUILDINGS_H
+#define HEROESOFCIVILIZATION_BUILDINGS_H
+
+
+class Buildings {
+
+};
+
+
+#endif //HEROESOFCIVILIZATION_BUILDINGS_H

@@ -20,6 +20,11 @@ bool GameState::handleEvent(const sf::Event &event)
         pushState(States::ID::Menu);
     }
 
+    if (sf::Mouse::isButtonPressed(sf::Mouse::Right)) {
+//        window.close();
+        pushState(States::ID::ActionMenu);
+    }
+
 }
 
 bool GameState::update(sf::Time dt)
@@ -29,6 +34,7 @@ bool GameState::update(sf::Time dt)
 
 void GameState::draw()
 {
+//    window.clear();
     window.setView(camera.getView());
     map.draw();
 }

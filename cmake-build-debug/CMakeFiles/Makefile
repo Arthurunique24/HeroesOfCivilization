@@ -123,6 +123,33 @@ HeroesOfCivilization/fast:
 	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/build
 .PHONY : HeroesOfCivilization/fast
 
+src/ActionMenuState.o: src/ActionMenuState.cpp.o
+
+.PHONY : src/ActionMenuState.o
+
+# target to build an object file
+src/ActionMenuState.cpp.o:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o
+.PHONY : src/ActionMenuState.cpp.o
+
+src/ActionMenuState.i: src/ActionMenuState.cpp.i
+
+.PHONY : src/ActionMenuState.i
+
+# target to preprocess a source file
+src/ActionMenuState.cpp.i:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.i
+.PHONY : src/ActionMenuState.cpp.i
+
+src/ActionMenuState.s: src/ActionMenuState.cpp.s
+
+.PHONY : src/ActionMenuState.s
+
+# target to generate assembly for a file
+src/ActionMenuState.cpp.s:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.s
+.PHONY : src/ActionMenuState.cpp.s
+
 src/Camera.o: src/Camera.cpp.o
 
 .PHONY : src/Camera.o
@@ -203,6 +230,60 @@ src/GameState.s: src/GameState.cpp.s
 src/GameState.cpp.s:
 	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.s
 .PHONY : src/GameState.cpp.s
+
+src/Interface/Buildings.o: src/Interface/Buildings.cpp.o
+
+.PHONY : src/Interface/Buildings.o
+
+# target to build an object file
+src/Interface/Buildings.cpp.o:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o
+.PHONY : src/Interface/Buildings.cpp.o
+
+src/Interface/Buildings.i: src/Interface/Buildings.cpp.i
+
+.PHONY : src/Interface/Buildings.i
+
+# target to preprocess a source file
+src/Interface/Buildings.cpp.i:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.i
+.PHONY : src/Interface/Buildings.cpp.i
+
+src/Interface/Buildings.s: src/Interface/Buildings.cpp.s
+
+.PHONY : src/Interface/Buildings.s
+
+# target to generate assembly for a file
+src/Interface/Buildings.cpp.s:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.s
+.PHONY : src/Interface/Buildings.cpp.s
+
+src/Interface/User.o: src/Interface/User.cpp.o
+
+.PHONY : src/Interface/User.o
+
+# target to build an object file
+src/Interface/User.cpp.o:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o
+.PHONY : src/Interface/User.cpp.o
+
+src/Interface/User.i: src/Interface/User.cpp.i
+
+.PHONY : src/Interface/User.i
+
+# target to preprocess a source file
+src/Interface/User.cpp.i:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.i
+.PHONY : src/Interface/User.cpp.i
+
+src/Interface/User.s: src/Interface/User.cpp.s
+
+.PHONY : src/Interface/User.s
+
+# target to generate assembly for a file
+src/Interface/User.cpp.s:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.s
+.PHONY : src/Interface/User.cpp.s
 
 src/Map.o: src/Map.cpp.o
 
@@ -375,6 +456,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... HeroesOfCivilization"
+	@echo "... src/ActionMenuState.o"
+	@echo "... src/ActionMenuState.i"
+	@echo "... src/ActionMenuState.s"
 	@echo "... src/Camera.o"
 	@echo "... src/Camera.i"
 	@echo "... src/Camera.s"
@@ -384,6 +468,12 @@ help:
 	@echo "... src/GameState.o"
 	@echo "... src/GameState.i"
 	@echo "... src/GameState.s"
+	@echo "... src/Interface/Buildings.o"
+	@echo "... src/Interface/Buildings.i"
+	@echo "... src/Interface/Buildings.s"
+	@echo "... src/Interface/User.o"
+	@echo "... src/Interface/User.i"
+	@echo "... src/Interface/User.s"
 	@echo "... src/Map.o"
 	@echo "... src/Map.i"
 	@echo "... src/Map.s"

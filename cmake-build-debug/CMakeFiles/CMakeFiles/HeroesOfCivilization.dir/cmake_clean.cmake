@@ -8,6 +8,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/HeroesOfCivilization.dir/src/PauseState.cpp.o"
   "CMakeFiles/HeroesOfCivilization.dir/src/StateManager.cpp.o"
   "CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o"
+  "CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o"
+  "CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o"
+  "CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o"
   "HeroesOfCivilization.pdb"
   "HeroesOfCivilization"
 )
