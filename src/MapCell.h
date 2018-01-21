@@ -19,7 +19,7 @@ public:
     void setCellPosition(int x, int y);
     const int getTileNumber() const;
     void select();
-    bool isSelect();
+    const bool isSelect();
 
 private:
     void draw(sf::RenderTarget &target, sf::RenderStates states) const override;

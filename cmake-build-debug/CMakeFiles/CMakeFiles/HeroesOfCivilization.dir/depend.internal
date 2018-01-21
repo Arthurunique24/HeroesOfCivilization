@@ -42,10 +42,14 @@ CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o
  /Users/user/Github/HeroesOfCivilization/src/State.h
  /Users/user/Github/HeroesOfCivilization/src/StateManager.h
 CMakeFiles/HeroesOfCivilization.dir/src/Map.cpp.o
+ /Users/user/Github/HeroesOfCivilization/src/Camera.h
  /Users/user/Github/HeroesOfCivilization/src/Constants.h
+ /Users/user/Github/HeroesOfCivilization/src/GameContext.h
  /Users/user/Github/HeroesOfCivilization/src/Map.cpp
  /Users/user/Github/HeroesOfCivilization/src/Map.h
  /Users/user/Github/HeroesOfCivilization/src/MapCell.h
+ /Users/user/Github/HeroesOfCivilization/src/ResourceManager/ResourceHolder.h
+ /Users/user/Github/HeroesOfCivilization/src/ResourceManager/ResourceIdentifier.h
 CMakeFiles/HeroesOfCivilization.dir/src/MapCell.cpp.o
  /Users/user/Github/HeroesOfCivilization/src/Constants.h
  /Users/user/Github/HeroesOfCivilization/src/MapCell.cpp

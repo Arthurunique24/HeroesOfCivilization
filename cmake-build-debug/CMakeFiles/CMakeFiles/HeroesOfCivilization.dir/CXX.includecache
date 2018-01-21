@@ -99,6 +99,8 @@ Constants.h
 /Users/user/Github/HeroesOfCivilization/src/Map.h
 MapCell.h
 /Users/user/Github/HeroesOfCivilization/src/MapCell.h
+Camera.h
+/Users/user/Github/HeroesOfCivilization/src/Camera.h
 SFML/Graphics.hpp
 -
 vector

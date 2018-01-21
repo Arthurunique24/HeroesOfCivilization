@@ -41,10 +41,14 @@ CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o: ../../src/ResourceManag
 CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o: ../../src/State.h
 CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o: ../../src/StateManager.h
 
+CMakeFiles/HeroesOfCivilization.dir/src/Map.cpp.o: ../../src/Camera.h
 CMakeFiles/HeroesOfCivilization.dir/src/Map.cpp.o: ../../src/Constants.h
+CMakeFiles/HeroesOfCivilization.dir/src/Map.cpp.o: ../../src/GameContext.h
 CMakeFiles/HeroesOfCivilization.dir/src/Map.cpp.o: ../../src/Map.cpp
 CMakeFiles/HeroesOfCivilization.dir/src/Map.cpp.o: ../../src/Map.h
 CMakeFiles/HeroesOfCivilization.dir/src/Map.cpp.o: ../../src/MapCell.h
+CMakeFiles/HeroesOfCivilization.dir/src/Map.cpp.o: ../../src/ResourceManager/ResourceHolder.h
+CMakeFiles/HeroesOfCivilization.dir/src/Map.cpp.o: ../../src/ResourceManager/ResourceIdentifier.h
 
 CMakeFiles/HeroesOfCivilization.dir/src/MapCell.cpp.o: ../../src/Constants.h
 CMakeFiles/HeroesOfCivilization.dir/src/MapCell.cpp.o: ../../src/MapCell.cpp

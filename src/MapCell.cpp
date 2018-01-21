@@ -40,7 +40,7 @@ void MapCell::select()
     selected = !selected;
 }
 
-bool MapCell::isSelect()
+const bool MapCell::isSelect()
 {
     return selected;
 }

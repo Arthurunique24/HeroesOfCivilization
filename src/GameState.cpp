@@ -20,7 +20,7 @@ bool GameState::handleEvent(const sf::Event &event)
         pushState(States::ID::Menu);
     } else
         if (event.type == sf::Event::MouseButtonReleased)
-            map.highlightCell(event);
+            map.highlightCell(event, camera);
 
 }
 

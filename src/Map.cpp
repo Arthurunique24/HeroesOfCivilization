@@ -33,10 +33,10 @@ void Map::draw()
         }
 }
 
-void Map::highlightCell(const sf::Event &event)
+void Map::highlightCell(const sf::Event &event, Camera camera)
 {
-    int y = int(static_cast<float>(event.mouseButton.y) / 120);
-    int x = (static_cast<float>(event.mouseButton.x) - 60 * (y % 2)) / 120;
+    int y = int(static_cast<float>(event.mouseButton.y) + camera.getView().getCenter().y - 360) / 107;
+    int x = (static_cast<float>(event.mouseButton.x) + camera.getView().getCenter().x - 480 - 60 * (y % 2)) / 120;
     matrixMap[y][x].select();
 }
 
