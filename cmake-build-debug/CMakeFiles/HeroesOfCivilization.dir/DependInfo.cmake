@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Arthur/GitHub/HeroesOfCivilization/src/Game.cpp" "/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/HeroesOfCivilization.dir/src/Game.cpp.o"
   "/Users/Arthur/GitHub/HeroesOfCivilization/src/GameState.cpp" "/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o"
   "/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.cpp" "/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o"
+  "/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/GetText.cpp" "/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/HeroesOfCivilization.dir/src/Interface/GetText.cpp.o"
   "/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/User.cpp" "/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o"
   "/Users/Arthur/GitHub/HeroesOfCivilization/src/Map.cpp" "/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/HeroesOfCivilization.dir/src/Map.cpp.o"
   "/Users/Arthur/GitHub/HeroesOfCivilization/src/MapCell.cpp" "/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/HeroesOfCivilization.dir/src/MapCell.cpp.o"

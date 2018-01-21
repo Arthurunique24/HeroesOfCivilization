@@ -11,7 +11,7 @@ ActionMenuState::ActionMenuState(StateManager &stack, States::Context context): 
     sf::RenderWindow &window = *getContext().window;
     float width = window.getSize().x;
     float height = window.getSize().y;
-    font.loadFromFile("../HeroesOfCivilization/Resources/sansation.ttf");
+    font.loadFromFile("../Resources/sansation.ttf");
 
     sf::View view;
     view.setSize(static_cast<float>(960), static_cast<float>(720)); //480

@@ -258,6 +258,33 @@ src/Interface/Buildings.cpp.s:
 	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.s
 .PHONY : src/Interface/Buildings.cpp.s
 
+src/Interface/GetText.o: src/Interface/GetText.cpp.o
+
+.PHONY : src/Interface/GetText.o
+
+# target to build an object file
+src/Interface/GetText.cpp.o:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/GetText.cpp.o
+.PHONY : src/Interface/GetText.cpp.o
+
+src/Interface/GetText.i: src/Interface/GetText.cpp.i
+
+.PHONY : src/Interface/GetText.i
+
+# target to preprocess a source file
+src/Interface/GetText.cpp.i:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/GetText.cpp.i
+.PHONY : src/Interface/GetText.cpp.i
+
+src/Interface/GetText.s: src/Interface/GetText.cpp.s
+
+.PHONY : src/Interface/GetText.s
+
+# target to generate assembly for a file
+src/Interface/GetText.cpp.s:
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/GetText.cpp.s
+.PHONY : src/Interface/GetText.cpp.s
+
 src/Interface/User.o: src/Interface/User.cpp.o
 
 .PHONY : src/Interface/User.o
@@ -471,6 +498,9 @@ help:
 	@echo "... src/Interface/Buildings.o"
 	@echo "... src/Interface/Buildings.i"
 	@echo "... src/Interface/Buildings.s"
+	@echo "... src/Interface/GetText.o"
+	@echo "... src/Interface/GetText.i"
+	@echo "... src/Interface/GetText.s"
 	@echo "... src/Interface/User.o"
 	@echo "... src/Interface/User.i"
 	@echo "... src/Interface/User.s"
