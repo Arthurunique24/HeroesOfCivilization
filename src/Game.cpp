@@ -74,5 +74,5 @@ void Game::registerStates()
 {
     manager.registerState<GameState>(States::ID::Game);
     manager.registerState<MenuState>(States::ID::Menu);
-//    manager.registerState<PauseState>(States::ID::Pause);
+    manager.registerState<ActionMenuState>(States::ID::ActionMenu);
 }

@@ -273,6 +273,78 @@ CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o.provides: CMakeFiles/HeroesO
 CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o.provides.build: CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o
 
 
+CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o: CMakeFiles/HeroesOfCivilization.dir/flags.make
+CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o: ../../src/ActionMenuState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o -c /Users/Arthur/GitHub/HeroesOfCivilization/src/ActionMenuState.cpp
+
+CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Arthur/GitHub/HeroesOfCivilization/src/ActionMenuState.cpp > CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.i
+
+CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Arthur/GitHub/HeroesOfCivilization/src/ActionMenuState.cpp -o CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.s
+
+CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o.requires:
+
+.PHONY : CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o.requires
+
+CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o.provides: CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o.requires
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o.provides.build
+.PHONY : CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o.provides
+
+CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o.provides.build: CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o
+
+
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o: CMakeFiles/HeroesOfCivilization.dir/flags.make
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o: ../../src/Interface/User.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o -c /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/User.cpp
+
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/User.cpp > CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.i
+
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/User.cpp -o CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.s
+
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o.requires:
+
+.PHONY : CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o.requires
+
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o.provides: CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o.requires
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o.provides.build
+.PHONY : CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o.provides
+
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o.provides.build: CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o
+
+
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o: CMakeFiles/HeroesOfCivilization.dir/flags.make
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o: ../../src/Interface/Buildings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o -c /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.cpp
+
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.cpp > CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.i
+
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.cpp -o CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.s
+
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o.requires:
+
+.PHONY : CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o.requires
+
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o.provides: CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o.requires
+	$(MAKE) -f CMakeFiles/HeroesOfCivilization.dir/build.make CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o.provides.build
+.PHONY : CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o.provides
+
+CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o.provides.build: CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o
+
+
 # Object files for target HeroesOfCivilization
 HeroesOfCivilization_OBJECTS = \
 "CMakeFiles/HeroesOfCivilization.dir/src/main.cpp.o" \
@@ -283,7 +355,10 @@ HeroesOfCivilization_OBJECTS = \
 "CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o" \
 "CMakeFiles/HeroesOfCivilization.dir/src/PauseState.cpp.o" \
 "CMakeFiles/HeroesOfCivilization.dir/src/StateManager.cpp.o" \
-"CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o"
+"CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o" \
+"CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o" \
+"CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o" \
+"CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o"
 
 # External object files for target HeroesOfCivilization
 HeroesOfCivilization_EXTERNAL_OBJECTS =
@@ -297,9 +372,16 @@ HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/src/GameState.cpp.o
 HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/src/PauseState.cpp.o
 HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/src/StateManager.cpp.o
 HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o
+HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o
+HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o
+HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o
 HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/build.make
 HeroesOfCivilization: CMakeFiles/HeroesOfCivilization.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/user/Github/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable HeroesOfCivilization"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Arthur/GitHub/HeroesOfCivilization/cmake-build-debug/CMakeFiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable HeroesOfCivilization"
+>>>>>>> origin/SarkisyanA
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HeroesOfCivilization.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -316,6 +398,9 @@ CMakeFiles/HeroesOfCivilization.dir/requires: CMakeFiles/HeroesOfCivilization.di
 CMakeFiles/HeroesOfCivilization.dir/requires: CMakeFiles/HeroesOfCivilization.dir/src/PauseState.cpp.o.requires
 CMakeFiles/HeroesOfCivilization.dir/requires: CMakeFiles/HeroesOfCivilization.dir/src/StateManager.cpp.o.requires
 CMakeFiles/HeroesOfCivilization.dir/requires: CMakeFiles/HeroesOfCivilization.dir/src/State.cpp.o.requires
+CMakeFiles/HeroesOfCivilization.dir/requires: CMakeFiles/HeroesOfCivilization.dir/src/ActionMenuState.cpp.o.requires
+CMakeFiles/HeroesOfCivilization.dir/requires: CMakeFiles/HeroesOfCivilization.dir/src/Interface/User.cpp.o.requires
+CMakeFiles/HeroesOfCivilization.dir/requires: CMakeFiles/HeroesOfCivilization.dir/src/Interface/Buildings.cpp.o.requires
 
 .PHONY : CMakeFiles/HeroesOfCivilization.dir/requires
 

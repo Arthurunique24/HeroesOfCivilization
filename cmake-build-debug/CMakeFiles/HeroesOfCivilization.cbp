@@ -84,7 +84,17 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+<<<<<<< HEAD
 		<Unit filename="/Users/user/Github/HeroesOfCivilization/src/Camera.cpp">
+=======
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/ActionMenuState.cpp">
+			<Option target="HeroesOfCivilization"/>
+		</Unit>
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/ActionMenuState.h">
+			<Option target="HeroesOfCivilization"/>
+		</Unit>
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Camera.cpp">
+>>>>>>> origin/SarkisyanA
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
 		<Unit filename="/Users/user/Github/HeroesOfCivilization/src/Camera.h">
@@ -111,7 +121,23 @@
 		<Unit filename="/Users/user/Github/HeroesOfCivilization/src/GameStates.h">
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
+<<<<<<< HEAD
 		<Unit filename="/Users/user/Github/HeroesOfCivilization/src/Map.cpp">
+=======
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.cpp">
+			<Option target="HeroesOfCivilization"/>
+		</Unit>
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.h">
+			<Option target="HeroesOfCivilization"/>
+		</Unit>
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/User.cpp">
+			<Option target="HeroesOfCivilization"/>
+		</Unit>
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/User.h">
+			<Option target="HeroesOfCivilization"/>
+		</Unit>
+		<Unit filename="/Users/Arthur/GitHub/HeroesOfCivilization/src/Map.cpp">
+>>>>>>> origin/SarkisyanA
 			<Option target="HeroesOfCivilization"/>
 		</Unit>
 		<Unit filename="/Users/user/Github/HeroesOfCivilization/src/Map.h">

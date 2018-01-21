@@ -17,6 +17,7 @@ Map::Map(sf::RenderWindow &window) : window(window)
 
 void Map::draw()
 {
+    window.clear();
     for (int i = 0; i < MAP_HEIGHT; i++)
         for (int j = 0; j < MAP_WIDTH; j++)
         {

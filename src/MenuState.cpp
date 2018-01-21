@@ -11,9 +11,7 @@ MenuState::MenuState(StateManager &stack, States::Context context): State(stack,
     sf::RenderWindow &window = *getContext().window;
     float width = window.getSize().x;
     float height = window.getSize().y;
-    if (font.loadFromFile("../HeroesOfCivilization/Resources/sansation.ttf")) {
-
-    }
+    font.loadFromFile("../HeroesOfCivilization/Resources/sansation.ttf");
 
     sf::View view;
     view.setSize(static_cast<float>(960), static_cast<float>(720)); //480
@@ -39,6 +37,14 @@ MenuState::MenuState(StateManager &stack, States::Context context): State(stack,
 
 void MenuState::draw() {
     getContext().window->clear();
+
+    //background
+    sf::Texture texture;
+    texture.loadFromFile("../HeroesOfCivilization/Resources/back.png");
+    sf::Sprite background(texture);
+    background.scale(960 / 350, 720 / 200);
+    getContext().window->draw(background);
+    //end of background code
 
     for (int i = 0; i < MAX_NUMBERS_OF_ITEMS; i++) {
         getContext().window->draw(menu[i]);

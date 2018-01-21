@@ -6,7 +6,27 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /Users/user/Github/HeroesOfCivilization/src/Camera.cpp
+=======
+/Users/Arthur/GitHub/HeroesOfCivilization/src/ActionMenuState.cpp
+ActionMenuState.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/ActionMenuState.h
+Game.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/Game.h
+
+/Users/Arthur/GitHub/HeroesOfCivilization/src/ActionMenuState.h
+SFML/Graphics.hpp
+-
+GameContext.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/GameContext.h
+State.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/State.h
+Camera.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/Camera.h
+
+/Users/Arthur/GitHub/HeroesOfCivilization/src/Camera.cpp
+>>>>>>> origin/SarkisyanA
 Camera.h
 /Users/user/Github/HeroesOfCivilization/src/Camera.h
 Constants.h
@@ -48,7 +68,13 @@ StateManager.h
 GameContext.h
 /Users/user/Github/HeroesOfCivilization/src/GameContext.h
 Camera.h
+<<<<<<< HEAD
 /Users/user/Github/HeroesOfCivilization/src/Camera.h
+=======
+/Users/Arthur/GitHub/HeroesOfCivilization/src/Camera.h
+MenuState.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/MenuState.h
+>>>>>>> origin/SarkisyanA
 PauseState.h
 /Users/user/Github/HeroesOfCivilization/src/PauseState.h
 GameState.h
@@ -56,7 +82,13 @@ GameState.h
 Map.h
 /Users/user/Github/HeroesOfCivilization/src/Map.h
 MenuState.h
+<<<<<<< HEAD
 /Users/user/Github/HeroesOfCivilization/src/MenuState.h
+=======
+/Users/Arthur/GitHub/HeroesOfCivilization/src/MenuState.h
+ActionMenuState.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/ActionMenuState.h
+>>>>>>> origin/SarkisyanA
 
 /Users/user/Github/HeroesOfCivilization/src/GameContext.h
 ResourceManager/ResourceIdentifier.h
@@ -86,7 +118,31 @@ SFML/System/Time.hpp
 
 /Users/user/Github/HeroesOfCivilization/src/GameStates.h
 
+<<<<<<< HEAD
 /Users/user/Github/HeroesOfCivilization/src/Map.cpp
+=======
+/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.cpp
+Buildings.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.h
+
+/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/Buildings.h
+
+/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/User.cpp
+User.h
+/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/User.h
+
+/Users/Arthur/GitHub/HeroesOfCivilization/src/Interface/User.h
+string
+-
+fstream
+-
+cassert
+-
+sstream
+-
+
+/Users/Arthur/GitHub/HeroesOfCivilization/src/Map.cpp
+>>>>>>> origin/SarkisyanA
 fstream
 -
 iostream
@@ -127,8 +183,11 @@ Game.h
 /Users/user/Github/HeroesOfCivilization/src/MenuState.h
 SFML/Graphics.hpp
 -
+<<<<<<< HEAD
 MenuState.h
 /Users/user/Github/HeroesOfCivilization/src/MenuState.h
+=======
+>>>>>>> origin/SarkisyanA
 GameContext.h
 /Users/user/Github/HeroesOfCivilization/src/GameContext.h
 State.h

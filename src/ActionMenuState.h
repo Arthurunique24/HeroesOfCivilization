@@ -1,21 +1,20 @@
 //
-// Created by Arthur  on 12/14/17.
+// Created by Arthur  on 1/20/18.
 //
 
-#ifndef HEROESOFCIVILIZATION_MENUSTATE_H
-#define HEROESOFCIVILIZATION_MENUSTATE_H
+#ifndef HEROESOFCIVILIZATION_ACTIONMENU_H
+#define HEROESOFCIVILIZATION_ACTIONMENU_H
 
 #include <SFML/Graphics.hpp>
 #include "GameContext.h"
 #include "State.h"
 #include "Camera.h"
 
-#define MAX_NUMBERS_OF_ITEMS 3
+#define MAX_NUMBER_OF_BUILDINGS 4
 
-class MenuState: public State
-{
+class ActionMenuState: public State {
 public:
-    explicit MenuState(StateManager &stack, States::Context context);
+    explicit ActionMenuState(StateManager &stack, States::Context context);
 
     void draw() override;
     bool update(sf::Time dt) override;
@@ -27,7 +26,8 @@ public:
 private:
     int selectedItemIndex;
     sf::Font font;
-    sf::Text menu[MAX_NUMBERS_OF_ITEMS];
+    sf::Text menu[MAX_NUMBER_OF_BUILDINGS];
 };
+
 
 #endif //HEROESOFCIVILIZATION_ACTIONMENU_H
