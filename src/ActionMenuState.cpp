@@ -149,9 +149,7 @@ void ActionMenuState::Remap(int x, int y, int type) {
 //    farm: 4, 11, 12, 19, 51, 67, 82, 95;
 //    Sawmill: 53, 60, 83, 89, 94;
 //    Mine: 39, 40, 43, 46, 50, 57, 72, 75, 80;
-//    Barracks: 6, 13, 22, 31, 31, 33, 45, 47, 66, 67, 68, 96;
-
-
+//    Barracks: 6, 13, 22, 23, 31, 31, 33, 45, 47, 57, 66, 67, 68;
 
     if (type == 5) {
         if (map[x][y] != 4 && map[x][y] != 11 && map[x][y] != 12
@@ -177,7 +175,7 @@ void ActionMenuState::Remap(int x, int y, int type) {
         if (map[x][y] != 6 && map[x][y] != 13 && map[x][y] != 22
             && map[x][y] != 31 && map[x][y] != 33 && map[x][y] != 45
             && map[x][y] != 47 && map[x][y] != 66 && map[x][y] != 67
-                && map[x][y] != 68 && 96)
+            && map[x][y] != 57 && map[x][y] != 23)
         {
             return;
         }
