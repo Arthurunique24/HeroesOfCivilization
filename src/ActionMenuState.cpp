@@ -85,17 +85,17 @@ bool ActionMenuState::handleEvent(const sf::Event &event) {
             }
             //Sawmill
             if (GetSelectedItem() == 1) {
-                Remap(X, Y, 11);
+                Remap(X, Y, 74);
                 pushState(States::ID::Game);
             }
             //Mine
             if (GetSelectedItem() == 2) {
-                Remap(X, Y, 0);
+                Remap(X, Y, 54);
                 pushState(States::ID::Game);
             }
             //Barracks
             if (GetSelectedItem() == 3) {
-                Remap(X, Y, 8);
+                Remap(X, Y, 20);
                 pushState(States::ID::Game);
             }
         }
@@ -144,6 +144,44 @@ void ActionMenuState::Remap(int x, int y, int type) {
             fin >> coma;
         }
     }
+//    farm: 4, 11, 12, 19, 51, 67, 82, 95;
+//    Sawmill: 53, 60, 83, 89, 94;
+//    Mine: 39, 40, 43, 46, 50, 57, 72, 75, 80;
+//    Barracks: 6, 13, 22, 23, 31, 31, 33, 45, 47, 57, 66, 67, 68;
+
+
+
+    if (type == 5) {
+        if (map[x][y] != 4 && map[x][y] != 11 && map[x][y] != 12
+            && map[x][y] != 19 && map[x][y] != 51 && map[x][y] != 67
+            && map[x][y] != 82 && map[x][y] != 95)
+        {
+            return;
+        }
+    } else if (type == 74) {
+        if (map[x][y] != 53 && map[x][y] != 60 && map[x][y] != 83
+            && map[x][y] != 89 && map[x][y] != 94)
+        {
+            return;
+        }
+    } else if (type == 54) {
+        if (map[x][y] != 39 && map[x][y] != 40 && map[x][y] != 43
+            && map[x][y] != 46 && map[x][y] != 50 && map[x][y] != 57
+            && map[x][y] != 72 && map[x][y] != 75 && map[x][y] != 80)
+        {
+            return;
+        }
+    } else if (type == 3) {
+        if (map[x][y] != 6 && map[x][y] != 13 && map[x][y] != 22
+            && map[x][y] != 31 && map[x][y] != 33 && map[x][y] != 45
+            && map[x][y] != 47 && map[x][y] != 66 && map[x][y] != 67
+                && map[x][y] != 57 && map[x][y] != 23)
+        {
+            return;
+        }
+    }
+
+
     map[x][y] = type;
 
     fin.clear();
