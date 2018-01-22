@@ -15,19 +15,21 @@ Camera::Camera(States::Context context)
     context.window->setView(view);
 }
 
-void Camera::handleEvent(const sf::Event &event)
-{
+void Camera::handleEvent(const sf::Event &event) {
     if (event.type == sf::Event::MouseButtonPressed
-        && event.key.code == sf::Mouse::Right)
-    {
+        && event.key.code == sf::Mouse::Right) {
         initialMousePos = sf::Mouse::getPosition(*context.window);
         dragging = true;
-    }
-    else if (event.type == sf::Event::MouseButtonReleased
-             && event.key.code == sf::Mouse::Right)
-    {
+    } else if (event.type == sf::Event::MouseButtonReleased
+               && event.key.code == sf::Mouse::Right) {
         dragging = false;
     }
+}
+
+void Camera::setView(sf::View newView)
+{
+    view = newView;
+}
 //    else if (event.type == sf::Event::MouseWheelMoved)
 //    {
 //    	int factor = 1 + event.mouseWheel.delta;// *-0.1f;
@@ -46,7 +48,7 @@ void Camera::handleEvent(const sf::Event &event)
 //
 //    	context.window->setView(view);
 //    }
-}
+//}
 
 void Camera::update(sf::Time dt)
 {

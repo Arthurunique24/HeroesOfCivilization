@@ -11,6 +11,7 @@ public:
 
     void handleEvent(const sf::Event &event);
     void update(sf::Time dt);
+    void setView(const sf::View newView);
     void draw();
 
     const sf::View &getView();

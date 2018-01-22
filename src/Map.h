@@ -22,9 +22,12 @@ public:
 private:
     void loadFromCSV(const std::string &filename);
 
+    bool selected;
     sf::Texture texture;
     std::vector<std::vector<MapCell>> matrixMap;
     sf::RenderWindow &window;
+    int selectedX;
+    int selectedY;
 };
 
 

@@ -14,6 +14,8 @@ Map::Map(sf::RenderWindow &window) : window(window)
 
     matrixMap.resize(MAP_HEIGHT, std::vector<MapCell>(MAP_WIDTH));
     loadFromCSV("../Resources/map.csv");
+    selected = false;
+
 }
 
 void Map::draw()
@@ -50,8 +52,25 @@ void Map::highlightCell(const sf::Event &event, Camera camera)
     coord.clear();
     coord.close();
 
-    matrixMap[y][x].select();
+    if (!selected) {
+        matrixMap[y][x].select();
+        selectedX = x;
+        selectedY = y;
+        selected = true;
+    } else
+    {
+        matrixMap[selectedY][selectedX].select();
+        if (x == selectedX && y == selectedY)
+            selected = false;
+        else
+        {
+            matrixMap[y][x].select();
+            selectedX = x;
+            selectedY = y;
+        }
+    }
 }
+
 
 
 

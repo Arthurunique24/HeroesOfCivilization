@@ -92,11 +92,13 @@ bool ActionMenuState::handleEvent(const sf::Event &event) {
             if (GetSelectedItem() == 2) {
                 Remap(X, Y, 54);
                 pushState(States::ID::Game);
+
             }
             //Barracks
             if (GetSelectedItem() == 3) {
                 Remap(X, Y, 20);
                 pushState(States::ID::Game);
+
             }
         }
     }

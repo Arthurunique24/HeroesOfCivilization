@@ -22,6 +22,7 @@ public:
 
 private:
     sf::RenderWindow window;
+    sf::View gameView;
     TextureHolder textureHolder;
 //    States::Context context;
     Camera camera;
